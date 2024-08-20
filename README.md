@@ -43,7 +43,10 @@ In scene mode, the first 15 buttons bind the track to crossfade A, the second ro
 
 ## What's next?
 One of the next step would be to preview the clips with changing the color of buttons. Though it's not possible, because the Input of these devices goes directly to the Output, and creates a nasty loop.<br>
-I've managed to get in touch with someone close to Codanova, and got some interesting ressources.
+I've managed to get in touch with someone close to Codanova, and got some interesting ressources.<br>
+
+I've started to work on the Control Surface for the VMX VJ, based on this Control Surface. I worked on a super cool menu and submenu system, that works great.<br>
+Ultimate goal for this one will be to add and tweak effects.
 
 ## More
 [Log book of this project](LogBook.md)<br>
