@@ -11,7 +11,7 @@
 - Download the latest release.
 - Extract the folder to `C:\ProgramData\Ableton\Live 12`*(depends on your edition of Ableton)*`\Resources\MIDI Remote Scripts`.
 - **Rename it to VMX_V64**
-- Should look like `MIDI Remote Scripts̀\VMX_V64\*`(* contains all the files, such as VMX_V64.py)
+- Should look like `MIDI Remote Scripts̀\VMX_V64\*`(* contains all the files, such as [VMX_V64.py](https://github.com/Meb-Do-Stuff/VMX_V64/blob/main/VMX_V64.py))
 - In Ableton, go to Preferences -> Link MIDI -> (lower part of the window) Enable Input and Output for your VMX V64 (if it's not detected, restart Ableton).
 - In the uppert part of the Link MIDI Preference page, you can assign Control Surface. Select the VMX V64 in Input and Output, and in the Control Surface section, you should be able to set it to `VMX V64` (if it's not there, you failed the installation).
 - Enjoy! (See the layout below)
