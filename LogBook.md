@@ -11,6 +11,8 @@ Before that, this brand had released a bunch of devices.<br> I managed to get *t
 Their integration with Ableton is quite poor, and you have to map everything manually each time, which is kinda annoying.<br>
 My goal is to create surface controls so it can auto-map itself and do even better stuff.
 
+This project was made during the [Hackclub Arcade](https://hackclub.com/arcade/) (Had this project in mind since April 2024, but really found the motivation thanks to that).
+
 ## Base Knowledge & Finding Resources
 
 Surface controls are Python scripts used by Ableton to turn random MIDI controllers into war machines.<br>
