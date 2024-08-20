@@ -1,5 +1,7 @@
 # Codanova VMX V64 Control Surface
 
+### **More informations about the project in the [logbook](https://github.com/Meb-Do-Stuff/VMX_V64/blob/main/LogBook.md).**
+
 ## Installation:
 - Unplug your VMX V64.
 - Get it upside-down.
