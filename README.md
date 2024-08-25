@@ -41,7 +41,7 @@ I've also managed to create a scene mode.
 In scene mode, the first 15 buttons bind the track to crossfade A, the second row (to 15) remove the binding, and the third row bind to crossfade B. The last row stop a track, and the last column launch scenes (1 to 4 (depending on the view))<br>
 
 *Current layout:*
-![vmx_v64.png](vmx_v64.png)
+<img src="https://raw.githubusercontent.com/MeblIkea/VMX_V64/main/vmx_v64.png" height="500" alt="">
 
 ## What's next?
 One of the next step would be to preview the clips with changing the color of buttons. Though it's not possible, because the Input of these devices goes directly to the Output, and creates a nasty loop.<br>
