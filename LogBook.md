@@ -2,16 +2,16 @@
 
 ---
 
-*Here go my logs*
+*Here goes my logs*
 
 ## Origin
 
-While lurking online, searching for some cool MIDI equipment to use with software like Ableton, I found the brand [Codanova](http://codanova.over-blog.com/), which closed in 2012.<br>
-Before that, this brand had released a bunch of devices.<br> I managed to get *two*: a [Codanova VMX V64](http://codanova.over-blog.com/article-new-prototype-midi-controller-codanova-vmx-v64-50855556.html) and a [VMX VJ](http://codanova-fr.over-blog.com/article-27262311.html).<br>
-Their integration with Ableton is quite poor, and you have to map everything manually each time, which is kinda annoying.<br>
-My goal is to create surface controls so it can auto-map itself and do even better stuff.
+While lurking online, searching for some cool MIDI equipments to use with softwares like Ableton, I found the brand [Codanova](http://codanova.over-blog.com/), which closed in 2012.<br>
+Prior to that, this brand released a bunch of devices.<br> I managed to get *two* of them: a [Codanova VMX V64](http://codanova.over-blog.com/article-new-prototype-midi-controller-codanova-vmx-v64-50855556.html) and a [VMX VJ](http://codanova-fr.over-blog.com/article-27262311.html).<br>
+Their integration with Ableton is quite poor, and you have to map everything manually each time, which is annoying.<br>
+My goal is to create a surface controls so it can auto-map itself and do even better stuff.
 
-This project was made during the [Hackclub Arcade](https://hackclub.com/arcade/) (Had this project in mind since April 2024, but really found the motivation thanks to that).
+This project was made during the [Hackclub Arcade](https://hackclub.com/arcade/) (Had this project in mind since April 2024, but really got the motivation thanks to that).
 
 ## Base Knowledge & Finding Resources
 
@@ -37,25 +37,24 @@ MENUBUTTONS = [
     71, 72, 79, 80
 ]
 ```
-ChatGPT has been used to correct typo errors and information about Ableton (such as what are banks, and can I have more crossfaders than one (the answer is no, but I thought of a way)).
 ## Step 1: Perfect Controller Settings!
 
-The Codanova VMX V64 can be configured with Dip-Switches.
+The Codanova VMX V64 can be configured using dip-switches.
 
 The first step is to fulfill the [MIDI_Map.py file](https://github.com/laidlaw42/ableton-live-midi-remote-scripts/blob/YourControllerName/YourControllerName%20-%20Live%2011/MIDI_Map.py).<br>
 Since my controller is quite special, I'll probably take another path, but I have to do a mapping anyway.
 
-<img src="https://github.com/Meb-Do-Stuff/Codanova-VMX-V64-Ableton-Surface-Control/blob/main/dipswitch.jpg?raw=true" height="200" alt="">
+<img src="https://github.com/MeblIkea/Codanova-VMX-V64-Ableton-Surface-Control/blob/main/dipswitch.jpg?raw=true" height="200" alt="">
 
-There is software to directly modify settings with the firmware, but this software seems broken (maybe for a future project).
+There is a software to modify settings from the firmware, but this software seems broken (maybe for a future project).<br>
+*Edit: Was because this software was for firmware version 1.0.1 and prior, and my controller had 1.0.2, as it got its firmware updated before their server died. I managed to get a new and better version of the software with contacting people.*
 
 ## Step 2: MIDI Mapping
 
 The first thing to do is to re-adapt this script that was made for an 8x8 controller to my 16x4.<br>
-There are matrices of -1, and I'm quite sure that the wrong amount of -1 would generate an error.
-It's now time to find the buttons and everything.
+It's now time to find the buttons.
 
-<img src="https://raw.githubusercontent.com/Meb-Do-Stuff/Codanova-VMX-V64-Ableton-Surface-Control/main/Map.png" height="500" alt="Codanova VMX V64 MIDI Map">
+<img src="https://raw.githubusercontent.com/MeblIkea/Codanova-VMX-V64-Ableton-Surface-Control/main/Map.png" height="500" alt="Codanova VMX V64 MIDI Map">
 <br>Outputting is really weird, I'll try again later.
 
 I managed to set the 16x4 buttons to launch clips, and the 16x2 knobs can manage the Send A & B, while the faders manage volume.<br>
